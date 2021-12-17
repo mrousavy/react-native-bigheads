@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTheme } from '../../themeContext'
 import { FacialHairProps } from './types'
-import { Path, G } from 'react-native-svg'
+import { Path, G } from '@shopify/react-native-skia'
 
 export const Goatee = ({ color }: FacialHairProps) => {
   const { colors } = useTheme()
@@ -10,8 +10,8 @@ export const Goatee = ({ color }: FacialHairProps) => {
   return (
     <G>
       <Path
-        d="M463 737L499.5 808L536 737H463Z"
-        fill={base}
+        path="M463 737L499.5 808L536 737H463Z"
+        color={base}
         stroke={colors.outline}
         strokeWidth="12"
         strokeLinejoin="round"

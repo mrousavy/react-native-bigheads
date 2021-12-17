@@ -90,7 +90,7 @@ import { BgSquircle } from './backgrounds/BgSquircle'
 import { BgCircleMask } from './backgrounds/BgCircleMask'
 import { BgSquareMask } from './backgrounds/BgSquareMask'
 import { BgSquircleMask } from './backgrounds/BgSquircleMask'
-import { SvgProps } from 'react-native-svg'
+import { RNSkiaViewProps } from '@shopify/react-native-skia'
 
 export const eyesMap = {
   normal: NormalEyes,
@@ -213,7 +213,7 @@ function selectRandomKey<T extends {}>(object: T) {
   return (Object.keys(object) as Array<keyof typeof object>)[Math.floor(Math.random() * Object.keys(object).length)]
 }
 
-export interface AvatarProps extends SvgProps {
+export interface AvatarProps extends RNSkiaViewProps {
   skinTone?: keyof typeof colors.skin
   eyes?: keyof typeof eyesMap
   eyebrows?: keyof typeof eyebrowsMap
@@ -239,7 +239,6 @@ export interface AvatarProps extends SvgProps {
   size?: number
   containerStyles?: ViewStyle
   containerProps?: ViewProps
-  svgRef?: React.Ref<React.Component<SvgProps>>
 }
 
 export const Avatar = ({
@@ -268,7 +267,6 @@ export const Avatar = ({
   size = 100,
   containerStyles = {},
   containerProps = {},
-  svgRef,
 
   ...rest
 }: AvatarProps) => {
@@ -289,7 +287,6 @@ export const Avatar = ({
   return (
     <ThemeContext.Provider value={{ colors, skin }}>
       <Base
-        svgRef={svgRef}
         eyes={Eyes}
         eyebrows={Eyebrows}
         mouth={Mouth}

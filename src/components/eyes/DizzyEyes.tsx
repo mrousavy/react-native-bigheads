@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTheme } from '../../themeContext'
-import { Line } from 'react-native-svg'
+import { Line } from '@shopify/react-native-skia'
 
 export const DizzyEyes = () => {
   const { colors } = useTheme()
@@ -12,7 +12,7 @@ export const DizzyEyes = () => {
         y1="603.9"
         x2="306.24"
         y2="534.26"
-        fill="none"
+        color="none"
         stroke={colors.outline}
         strokeLinecap="round"
         strokeMiterlimit={10}
@@ -23,7 +23,7 @@ export const DizzyEyes = () => {
         y1="603.9"
         x2="375.88"
         y2="534.26"
-        fill="none"
+        color="none"
         stroke={colors.outline}
         strokeLinecap="round"
         strokeMiterlimit={10}
@@ -34,7 +34,7 @@ export const DizzyEyes = () => {
         y1="603.9"
         x2="626.34"
         y2="534.26"
-        fill="none"
+        color="none"
         stroke={colors.outline}
         strokeLinecap="round"
         strokeMiterlimit={10}
@@ -45,7 +45,7 @@ export const DizzyEyes = () => {
         y1="603.9"
         x2="695.99"
         y2="534.26"
-        fill="none"
+        color="none"
         stroke={colors.outline}
         strokeLinecap="round"
         strokeMiterlimit={10}
