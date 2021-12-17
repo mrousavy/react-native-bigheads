@@ -29,7 +29,7 @@ or
 ```shell
 npm install react-native-bigheads REACT-NATIVE-SKIA-FROM-SHOPIFY-GOES-HERE --save
 ```
-> This package requires [react-native-svg](https://github.com/react-native-community/react-native-svg) to be installed
+> This package requires [@Shopify/react-native-skia](https://github.com/react-native-skia/react-native-skia) to be installed
 
 #### Aditional steps in iOS
 
@@ -73,28 +73,40 @@ use the `BigHead` component like this:
 
 ### Props
 
-- [`accessory`](#accessory)
-- [`bgColor`](#bgcolor)
-- [`bgShape`](#bgshape)
-- [`body`](#body)
-- [`clothing`](#clothing)
-- [`clothingColor`](#clothingcolor)
-- [`containerProps`](#containerprops)
-- [`containerStyles`](#containerstyles)
-- [`eyebrows`](#eyebrows)
-- [`eyes`](#eyes)
-- [`facialHair`](#facialhair)
-- [`graphic`](#graphic)
-- [`hair`](#hair)
-- [`hairColor`](#haircolor)
-- [`hat`](#hat)
-- [`hatColor`](#hatcolor)
-- [`lashes`](#lashes)
-- [`lipColor`](#lipcolor)
-- [`mouth`](#mouth)
-- [`showBackground`](#showbackground)
-- [`size`](#size)
-- [`skinTone`](#skinTone)
+- [`react-native-bigheads`](#react-native-bigheads)
+  - [Getting Started](#getting-started)
+    - [install dependencies](#install-dependencies)
+      - [Aditional steps in iOS](#aditional-steps-in-ios)
+    - [usage](#usage)
+    - [Props](#props)
+- [Reference](#reference)
+  - [Props](#props-1)
+    - [`accessory`](#accessory)
+    - [`bgColor`](#bgcolor)
+    - [`bgShape`](#bgshape)
+    - [`body`](#body)
+    - [`clothing`](#clothing)
+    - [`clothingColor`](#clothingcolor)
+    - [`containerProps`](#containerprops)
+    - [`containerStyles`](#containerstyles)
+    - [`eyebrows`](#eyebrows)
+    - [`eyes`](#eyes)
+    - [`facialHair`](#facialhair)
+    - [`graphic`](#graphic)
+    - [`hair`](#hair)
+    - [`hairColor`](#haircolor)
+    - [`hat`](#hat)
+    - [`hatColor`](#hatcolor)
+    - [`lashes`](#lashes)
+    - [`lipColor`](#lipcolor)
+    - [`mouth`](#mouth)
+    - [`showBackground`](#showbackground)
+    - [`size`](#size)
+    - [`skinTone`](#skintone)
+- [Authors](#authors)
+- [Changelog](#changelog)
+- [License](#license)
+- [Contributing](#contributing)
 
 # Reference
 

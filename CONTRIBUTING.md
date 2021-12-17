@@ -21,7 +21,7 @@ Then, create a fresh react native app in another terminal:
 ```bash
 npx react-native init BigHeadsDemo
 cd BigHeadsDemo
-yarn && yarn add react-native-svg
+yarn && yarn add REACT-NATIVE-SKIA-FROM-SHOPIFY-GOES-HERE
 yarn android # or yarn ios
 yarn start
 ```
