@@ -21,13 +21,13 @@
 ### install dependencies
 
 ```shell
-yarn add react-native-bigheads react-native-svg
+yarn add react-native-bigheads REACT-NATIVE-SKIA-FROM-SHOPIFY-GOES-HERE
 ```
 
 or
 
 ```shell
-npm install react-native-bigheads react-native-svg --save
+npm install react-native-bigheads REACT-NATIVE-SKIA-FROM-SHOPIFY-GOES-HERE --save
 ```
 > This package requires [react-native-svg](https://github.com/react-native-community/react-native-svg) to be installed
 
